@@ -105,10 +105,10 @@ export default function AudioLibrary() {
                                     </span>
                                 ))}
                             </div>
-                            <audio controls className="mt-3 w-full">
+                            {/* <audio controls className="mt-3 w-full">
                                 <source src={lecture.audioUrl} type="audio/mpeg" />
                                 Your browser does not support the audio element.
-                            </audio>
+                            </audio> */}
                         </div>
                     ))}
                 </div>

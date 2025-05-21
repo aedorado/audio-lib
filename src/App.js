@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import AudioLibrary from "./AudioLibrary";
 import LecturePage from "./LecturePage";
 import './App.css';
