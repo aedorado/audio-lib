@@ -84,9 +84,6 @@ export default function LectureDetail() {
 
   return (
     <div className="min-h-screen bg-saffron-50 text-gray-800 p-6 font-serif">
-      <Link to="/" className="text-saffron-700 hover:underline mb-4 block">
-        ← Back to library
-      </Link>
 
       <h1 className="text-2xl md:text-4xl font-bold mb-4">{lecture.title}</h1>
       <p className="text-saffron-600 text-sm mb-6">
